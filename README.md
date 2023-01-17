@@ -1,6 +1,13 @@
 # lineage-umi-microg
 This repository hosts builds of LineageOS with microG built in.
 
+## Issues with specific batches of builds
+
+| Build date | Version(s) | Issue |
+|------------|------------|-------|
+| 15/01/2023 | 19.1/20.0  | The OTA URL is wrong, which causes the Lineage updater to not see new updates. Please flash a newer or older version to restore the normal OTA functionality|
+| 01/01/2023 | 19.1/20.0  | The OTA URL is wrong, which causes the Lineage updater to not see new updates. Please flash a newer or older version to restore the normal OTA functionality|
+
 ## Installation
 
 To install Lineage with microG, simply grab the [latest release](https://github.com/nanoandrew4/lineage-umi-microg/releases) zip on this repository alongisde the appropriate recovery file, and flash it to your phone. You'll need the ADB and fastboot command line tools installed to do this, see [this](https://www.xda-developers.com/install-adb-windows-macos-linux/) guide if you don't have them set up, and your phone plugged in to your computer. These are the steps to flash the ROM onto your phone:
